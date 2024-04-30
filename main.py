@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import *
 t=tk.Tk()
-#t.resizable(False,False)
+t.resizable(False,False)
 t.title("Text Editor")
 selectmode=tk.StringVar()
 file_name=tk.StringVar()
